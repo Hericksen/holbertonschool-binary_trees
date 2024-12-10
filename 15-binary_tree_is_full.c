@@ -34,9 +34,9 @@ int binary_tree_is_full(const binary_tree_t *tree)
 
 	if (left_tree == 0 || right_tree == 0)
 		return (0);
-	/* it works too :) */
-	/* if (left_tree == right_tree)
-		return(1); */
+	/* it works too :)*/
+	/*if (left_tree == right_tree)*/
+		/* return(1); */
 
 	return (1);
 }
